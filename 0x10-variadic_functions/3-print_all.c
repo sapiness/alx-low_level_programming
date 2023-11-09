@@ -1,15 +1,12 @@
 #include "variadic_functions.h"
-
 /**
  * print_all - print any argument provided
  * @format: the arguments specifier
  * Return: any argument given
  */
-
 void print_all(const char * const format, ...)
 {
 	int i, check_stat;
-
 	char *str;
 	va_list spc;
 
